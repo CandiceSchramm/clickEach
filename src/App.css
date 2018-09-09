@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  font-family: 'Chango', cursive;
 }
 
 .App-header {
@@ -22,7 +18,24 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.tile {
+  display: block;
+  float: left;
+  align-self: center;
+  justify-self: center
+}
+
+.header-footer {
+  height: 60px;
+  position: relative;
+  color: #fff;
+  overflow: auto;
+}
+.thumbnail img {
+  height:250px;
+  width:100%;
+}
+
+.footer {
+  position: absolute;
 }
