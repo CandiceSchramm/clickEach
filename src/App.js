@@ -108,7 +108,6 @@ class App extends Component {
           for (let i = 0; i < newTiles.length; i++) {
             newTiles[i].clicked = false;
           }
-          let newScore = this.state.userscore;
           //set alert to wrong answer, reset user's current score back to 0, set tiles to the updated copy of Tiles
           this.setState({ ...this.state, alert: this.wrongAnswer(), userscore: 0, tiles: newTiles })
         }
